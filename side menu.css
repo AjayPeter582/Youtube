@@ -1,0 +1,80 @@
+.side-menu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    width:110px;
+    margin-right:20px;
+    align-items: center;
+}
+
+.home-icon{
+    width:40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.shorts-icon{
+    width:50px;
+}
+
+.sub-icon{
+    padding-left:25px;
+    width:37px;
+}
+
+.subscription{
+    align-items: center;
+}
+
+.gift{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.gift-icon{
+    width:50px;
+}
+
+.home{
+    border-radius: 5px;
+    cursor:pointer;
+    transition:margin-top 0.15s,text-decoration 0.15s;
+}
+
+.home:hover{
+    margin-top:2px;
+    text-decoration:underline;
+}
+.shorts{
+    border-radius: 5px;
+    cursor:pointer;
+    text-align: center;
+    transition: margin-top 0.15s,text-decoration 0.15s;
+}
+
+.shorts:hover{
+    margin-top:2px;
+    text-decoration: underline;
+}
+
+.subscription{
+    cursor:pointer;
+    transition: margin-top 0.15s,text-decoration 0.15s;
+}
+.subscription:hover{
+    margin-top:2px;
+    text-decoration: underline;
+}
+
+.gift{
+    border-radius:6px;
+    cursor:pointer;
+    transition: text-decoration 0.15s,margin-top 0.15s;
+}
+
+.gift:hover{
+    margin-top:2px;
+    text-decoration: underline;
+}
